@@ -64,4 +64,14 @@ show how to launch a WebLLM worker and call the OpenAI-compatible API asynchrono
    Then open the reported URL and launch the **Lab** application. The WebLLM notebooks live under
    `content/notebooks/`.
 
-Once the site is built you can also host the `docs/jupyterlite/dist` folder on any static file server (including GitHub Pages).
+## GitHub Pages Deployment
+
+The JupyterLite site is automatically deployed to GitHub Pages whenever changes are pushed to the main branch. You can access it at:
+
+**🚀 [https://fovi-llc.github.io/wasm-agents-blueprint/](https://fovi-llc.github.io/wasm-agents-blueprint/)**
+
+The deployment is handled by a GitHub workflow (`.github/workflows/pages.yml`) that:
+1. Builds the JupyterLite site from the `docs/jupyterlite` directory
+2. Deploys the contents of `docs/jupyterlite/dist` to GitHub Pages
+
+Once the site is built you can also host the `docs/jupyterlite/dist` folder on any static file server.

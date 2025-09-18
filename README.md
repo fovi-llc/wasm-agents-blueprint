@@ -50,7 +50,11 @@ This Blueprint demonstrates how to run AI agents directly in the browser using W
 
 ## Run WebLLM Notebooks in the Browser
 
-Prefer an interactive notebook? Build the bundled [JupyterLite](https://jupyterlite.readthedocs.io/) site to experiment with
+Prefer an interactive notebook? The JupyterLite site is automatically deployed to GitHub Pages and available at:
+
+**🚀 [Try the WebLLM Notebooks Online](https://fovi-llc.github.io/wasm-agents-blueprint/)**
+
+Alternatively, you can build and run the [JupyterLite](https://jupyterlite.readthedocs.io/) site locally to experiment with
 WebLLM directly in your browser. The notebooks spin up the WebLLM runtime inside a dedicated Web Worker so async calls do not
 block the UI thread.
 
