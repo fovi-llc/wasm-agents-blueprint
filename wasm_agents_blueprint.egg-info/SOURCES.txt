@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-wasm_agents_blueprint.egg-info/PKG-INFO
-wasm_agents_blueprint.egg-info/SOURCES.txt
-wasm_agents_blueprint.egg-info/dependency_links.txt
-wasm_agents_blueprint.egg-info/requires.txt
-wasm_agents_blueprint.egg-info/top_level.txt
