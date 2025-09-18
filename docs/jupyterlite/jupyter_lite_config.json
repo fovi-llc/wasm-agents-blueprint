@@ -2,10 +2,43 @@
   "LiteBuildConfig": {
     "apps": ["lab", "repl"],
     "contents": [
-      "./docs/jupyterlite/content"
+      "content"
     ],
-    "lite_dir": "./docs/jupyterlite",
-    "output_dir": "./docs/jupyterlite/dist",
-    "ignore_sys_prefix": ["federated_extensions"]
+    "output_dir": "dist"
+  },
+  "PipliteAddon": {
+    "enabled": true
+  },
+  "PyodideKernel": {
+    "enabled": true
+  },
+  "JavaScriptKernel": {
+    "enabled": true
+  },
+  "jupyter-lite-schema": {
+    "kernelspecs": {
+      "python": {
+        "name": "python",
+        "display_name": "Python (Pyodide)",
+        "language": "python",
+        "argv": [],
+        "spec": {
+          "language": "python",
+          "display_name": "Python (Pyodide)",
+          "argv": []
+        }
+      },
+      "javascript": {
+        "name": "javascript", 
+        "display_name": "JavaScript (Web Worker)",
+        "language": "javascript",
+        "argv": [],
+        "spec": {
+          "language": "javascript",
+          "display_name": "JavaScript (Web Worker)",
+          "argv": []
+        }
+      }
+    }
   }
 }

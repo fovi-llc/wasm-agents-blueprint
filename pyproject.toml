@@ -29,4 +29,7 @@ Documentation = "https://mozilla-ai.github.io/wasm-agents-blueprint/"
 Issues = "https://github.com/mozilla-ai/wasm-agents-blueprint/issues"
 Source = "https://github.com/mozilla-ai/wasm-agents-blueprint"
 
+[tool.setuptools]
+packages = ["demos"]
+
 [tool.setuptools_scm]
