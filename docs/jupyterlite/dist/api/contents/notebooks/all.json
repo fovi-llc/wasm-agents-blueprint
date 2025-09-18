@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-09-18T18:41:06.294167Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-09-18T17:40:26.578458Z",
+      "mimetype": null,
+      "name": "webllm-javascript.ipynb",
+      "path": "notebooks/webllm-javascript.ipynb",
+      "size": 4581,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-09-18T18:41:06.294456Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-09-18T18:39:49.700807Z",
+      "mimetype": null,
+      "name": "webllm-python.ipynb",
+      "path": "notebooks/webllm-python.ipynb",
+      "size": 6899,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-09-18T18:41:06.294312Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-09-18T18:41:06.294312Z",
+  "mimetype": null,
+  "name": "notebooks",
+  "path": "notebooks",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
