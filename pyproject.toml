@@ -17,9 +17,19 @@ dev = [
   "ruff",
 ]
 
+lite = [
+  "jupyterlite==0.2.1",
+  "jupyterlite-pyodide-kernel==0.2.1",
+  "jupyterlite-javascript-kernel==0.3.0",
+  "nbformat>=5.10",
+]
+
 [project.urls]
 Documentation = "https://mozilla-ai.github.io/wasm-agents-blueprint/"
 Issues = "https://github.com/mozilla-ai/wasm-agents-blueprint/issues"
 Source = "https://github.com/mozilla-ai/wasm-agents-blueprint"
+
+[tool.setuptools]
+packages = ["demos"]
 
 [tool.setuptools_scm]

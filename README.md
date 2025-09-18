@@ -48,6 +48,29 @@ This Blueprint demonstrates how to run AI agents directly in the browser using W
    - `tool_calling.html` - Tool calling agent with web scraping and character counting capabilities
    - `ollama_local.html` - Tool calling agent with local model support via Ollama
 
+## Run WebLLM Notebooks in the Browser
+
+Prefer an interactive notebook? Build the bundled [JupyterLite](https://jupyterlite.readthedocs.io/) site to experiment with
+WebLLM directly in your browser. The notebooks spin up the WebLLM runtime inside a dedicated Web Worker so async calls do not
+block the UI thread.
+
+1. Install the optional tooling:
+   ```bash
+   pip install .[lite]
+   ```
+2. Build the static site (outputs to `docs/jupyterlite/dist`):
+   ```bash
+   jupyter lite build --config docs/jupyterlite/jupyter_lite_config.json
+   ```
+3. Serve locally (optional) and open the Lab interface:
+   ```bash
+   jupyter lite serve --config docs/jupyterlite/jupyter_lite_config.json
+   ```
+
+Inside the JupyterLite **Lab** you will find two example notebooks under `content/notebooks/`:
+
+- `webllm-python.ipynb` shows how Pyodide code can await WebLLM chat completions and handle token streaming callbacks.
+- `webllm-javascript.ipynb` demonstrates the same worker from the JavaScript kernel.
 
 ## How it Works
 
