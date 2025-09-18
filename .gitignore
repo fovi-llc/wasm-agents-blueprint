@@ -1,1 +1,5 @@
 .jupyterlite.doit.db
+# Build artifacts
+*.egg-info/
+__pycache__/
+.pytest_cache/
