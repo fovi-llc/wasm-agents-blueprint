@@ -2,9 +2,9 @@
   "LiteBuildConfig": {
     "apps": ["lab", "repl"],
     "contents": [
-      "content"
+      "./jupyterlite/content"
     ],
-    "output_dir": "dist"
+    "output_dir": "./docs"
   },
   "PipliteAddon": {
     "enabled": true
