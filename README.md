@@ -62,13 +62,13 @@ block the UI thread.
    ```bash
    pip install .[lite]
    ```
-2. Build the static site (outputs to `docs/jupyterlite/dist`):
+2. Build the static site (outputs to `docs`):
    ```bash
-   jupyter lite build --config docs/jupyterlite/jupyter_lite_config.json
+   jupyter lite build --config jupyterlite/jupyter_lite_config.json
    ```
 3. Serve locally (optional) and open the Lab interface:
    ```bash
-   jupyter lite serve --config docs/jupyterlite/jupyter_lite_config.json
+   jupyter lite serve --config jupyterlite/jupyter_lite_config.json
    ```
 
 Inside the JupyterLite **Lab** you will find two example notebooks under `content/notebooks/`:

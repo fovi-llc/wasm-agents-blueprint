@@ -21,6 +21,7 @@ lite = [
   "jupyterlite==0.2.1",
   "jupyterlite-pyodide-kernel==0.2.1",
   "jupyterlite-javascript-kernel==0.3.0",
+  "notebook",
   "nbformat>=5.10",
 ]
 
